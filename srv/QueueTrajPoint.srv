@@ -9,6 +9,9 @@
 
 string[] joint_names
 trajectory_msgs/JointTrajectoryPoint point
+bool arcon
+bool arcof
+uint16 wfs
 
 ---
 # Result of the service invocation. Values other than one (1) signal failure.
